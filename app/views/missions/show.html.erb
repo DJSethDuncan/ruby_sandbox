@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @mission.name %>
+</p>
+
+<p>
+  <strong>Duration in days:</strong>
+  <%= @mission.duration_in_days %>
+</p>
+
+<p>
+  <strong>Vehicle:</strong>
+  <%= @mission.vehicle %>
+</p>
+
+<p>
+  <strong>Crew count:</strong>
+  <%= @mission.crew_count %>
+</p>
+
+<p>
+  <strong>Destination:</strong>
+  <%= @mission.destination %>
+</p>
+
+<%= link_to 'Edit', edit_mission_path(@mission) %> |
+<%= link_to 'Back', missions_path %>
