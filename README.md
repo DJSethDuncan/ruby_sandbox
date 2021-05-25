@@ -1,8 +1,6 @@
 # Ruby Sandbox - Space Mission Log
 
-Learning rails, building a mission log system. 
-
-Basically a space-themed journal app.
+A space-mission log in Rails/React
 
 # Setup
 
@@ -19,4 +17,13 @@ Example: `rails g active_admin:resource Mission`
 
 # Using it
 
-`localhost:3000/admin` - log in with `admin@example.com:password`
+Main app: `localhost:3000`
+Admin tools: `localhost:3000/admin` - log in with `admin@example.com:password`
+
+# Front end
+
+Components exist in `app/javascript/components/***`
+
+# Extra
+
+[This tutorial was super helpful](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-project-with-a-react-frontend)
